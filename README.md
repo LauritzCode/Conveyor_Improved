@@ -8,6 +8,5 @@ It then calculates the weight capacity of the conveyor belt and checks if the pa
 
 ## Flowchart
 
-<p align="center">
   <img width="1251" height="361" alt="Conveyor belt drawio" src="https://github.com/user-attachments/assets/1d080a37-35bd-4660-b822-67e0aa039646" />
-</p>
+
