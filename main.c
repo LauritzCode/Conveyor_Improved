@@ -7,12 +7,13 @@ int main(void) {
 
   printf("Welcome to our stress test system.\nHow many motors are involved "
          "today?\nMotor amount: ");
-  scanf("%d", &motorAmount);
+  scanf("%d", &motorAmount); // Prompts the user for the motor amount.
   printf("Lovely. And how much weight accumulates from the packages?\nTotal "
          "weight from the packages: ");
-  scanf("%d", &packageWeight);
+  scanf("%d", &packageWeight); // Prompts the user for the package weight.
 
-  double weightCapacity = motorAmount * packageHandle;
+  double weightCapacity =
+      motorAmount * packageHandle; // Calculating the total capacity.
   if (packageWeight <= weightCapacity) {
     printf("The conveyor belt can carry the packages.");
   } else {
